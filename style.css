@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial; 
+    background-color: #f1f1f1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'DM Serif Display', cursive; 
+    color: #333333; 
+    margin-bottom: 20px;
+  }
+  
+  .note-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    height: 50px;
+  }
+  
+  textarea::placeholder {
+    color: #999999;
+  }
+  
+  .add-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-button:active {
+    background-color: #003f8a;
+  }
+  
