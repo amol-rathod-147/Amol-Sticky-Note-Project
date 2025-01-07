@@ -15,6 +15,7 @@ let colors=[
   let notes=document.querySelector(".notes")
   let inputNotes=document.querySelector("#inputNotes")
   let addButton=document.querySelector("#add");
+
   addButton.addEventListener("click",()=>{
     let div=document.createElement("div")
     div.classList.add("box");
